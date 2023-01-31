@@ -1,0 +1,10 @@
+/*font-family: 'Aboreto', cursive;
+font-family: 'Noto Sans JP', sans-serif;*/
+
+h1 {
+  font-family: "Aboreto", cursive;
+  font-weight: bold;
+}
+p {
+  font-family: "Noto Sans JP", sans-serif;
+}
