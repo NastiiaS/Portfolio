@@ -1,10 +1,51 @@
 /*font-family: 'Aboreto', cursive;
 font-family: 'Noto Sans JP', sans-serif;*/
-
-h1 {
-  font-family: "Aboreto", cursive;
+:root {
+  --branding-color: #131315;
+  --secondary-color: #d6d6da;
+  --heading-font-family: "Aboreto", cursive;
+  --defauil-font-family: "Noto Sans JP", sans-serif;
+}
+body {
+  font-family: var(--default-font-family);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 p {
   font-family: "Noto Sans JP", sans-serif;
+}
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.hero h1 {
+  font-size: 96px;
+}
+.hero h2 {
+  font-family: var(--defauil-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
