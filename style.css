@@ -92,6 +92,34 @@ p {
 .work-page {
   font-family: var(--default-font-family);
 }
+.logo {
+  max-height: 100px;
+}
+nav {
+  padding: 10px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 25px 0px 0px 0px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  font-family: var(--defauil-font-family);
+  font-size: 20px;
+  line-height: 35px;
+  margin-left: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: black;
+}
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -109,5 +137,21 @@ p {
   .content {
     text-align: center;
     padding: 0;
+  }
+  nav a {
+    font-size: 14px;
+    margin: 5px;
+  }
+  .logo {
+    max-height: 80px;
+  }
+  .hero h1 {
+    font-size: 66px;
+  }
+  .text-muted {
+    font-size: 12px;
+  }
+  nav li {
+    margin-left: 15px;
   }
 }
