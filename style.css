@@ -22,6 +22,10 @@ h6 {
 h2 {
   font-size: 64px;
 }
+
+h4 {
+  font-size: 48px;
+}
 p {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
@@ -120,6 +124,38 @@ nav a:hover,
 nav li.active a {
   color: black;
 }
+footer {
+  margin: 60px 0;
+}
+footer .email-links {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-family: var(--heading-font-family);
+  text-align: center;
+  margin-bottom: 40px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: black;
+  transition: all 100ms ease-in-out;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -131,6 +167,10 @@ nav li.active a {
   h2 {
     font-size: 44px;
   }
+  h4 {
+    font-size: 18px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
@@ -153,5 +193,8 @@ nav li.active a {
   }
   nav li {
     margin-left: 15px;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
