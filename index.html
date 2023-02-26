@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Ana is a front-end engineer based in Europe."
+    />
+    <title>Front-end developer - Ana Lenko</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,31 +33,51 @@
     ></script>
   </head>
   <body>
-    <div class="container">
-        <nav class="d-flex justify-content-between">
-        <img src="image/As4.jpg" class="logo" alt="logo" />
-        <ul>
-          <li class="active"> 
-            <a href="/" class="">Home</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="/" href="#"
+        ><img src="image/As4.jpg" class="logo" alt="Ana logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
           </li>
-           <li class="active">
-             <a href="/about.html" class="">About</a>
-            </li>
-          <li class="active">
-            <a href="/work.html" class="">Work</a>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" title="About Ana Lenko"
+              >About</a
+            >
           </li>
-         <li class="active">
-            <a href="/contact.html" class="">Contact</a>
+          <li class="nav-item">
+            <a class="nav-link" href="work.html" title="Ana's work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" title="Contact Ana"
+              >Contact</a
+            >
           </li>
         </ul>
       </div>
     </nav>
+
     <div class="hero">
       <p>Hello, I'm</p>
       <h1>Ana Salenko</h1>
       <h2 class="mb-3">Front-end developer based in Kyiv</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="contact.html" class="btn btn-branding">Contact me</a>
       </div>
     </div>
     <p class="text-center m-5">Featured projects</p>
@@ -66,10 +90,12 @@
           <div class="project-description">
             <h2 class="mb-5">Wine Project</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              Using html I created a page with an article about red wine, where
+              we'll explore the various health benefits of drinking red wine,
+              the different varieties of red wine,and tips for drinking red wine
+              to get the most out of your experience. Whether you're a seasoned
+              wine connoisseur or a casual wine drinker, this article will
+              provide valuable insights into the world of red wine.
             </p>
             <a href="#" class="btn btn-branding-outline">Learn more</a>
           </div>
@@ -80,10 +106,15 @@
           <div class="project-description">
             <h2 class="mb-5">Weather App</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              The weather app is a handy tool for keeping track of the weather
+              conditions in your area and around the world. With this app, you
+              can easily access up-to-date information about temperature,
+              humidity, wind speed, and precipitation for your current location
+              or any other location of your choice. The app is user-friendly and
+              features a sleek and modern design, making it easy to navigate and
+              understand the weather information at a glance. With the weather
+              app, you'll never be caught off guard by unexpected weather
+              conditions again.
             </p>
             <a href="" class="btn btn-branding-outline"> Learn more </a>
           </div>
@@ -109,29 +140,34 @@
           </div>
         </div>
       </div>
-      
-        <footer>
-          <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-            <div>
-            <h4>
-              Work Inquiry
-            </h4>
+
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
             <p class="text-muted">Let's work together</p>
-            </div>
-            <div>
+          </div>
+          <div>
             <a href="" class="btn btn-branding mt-4">Contact me</a>
-            </div>
           </div>
-          <div class="d-flex justify-content-center">
-          <a href="maito:an.lenko@gmail.com" class="email-links mt-4">an.lenko@gmail.com</a>
-          </div>
-          <div class="social-links d-flex justify-content-center">
-            <a href="https://www.linkedin.com/an.lenko" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.instagram.com/an.lenko" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.facebook.com/an.lenko" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-         </div>
-        </footer>
-     
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="maito:an.lenko@gmail.com" class="email-links mt-4"
+            >an.lenko@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.linkedin.com/an.lenko" target="_blank">
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.instagram.com/an.lenko" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.facebook.com/an.lenko" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

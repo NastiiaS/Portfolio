@@ -103,8 +103,7 @@ nav {
   padding: 10px 0;
 }
 nav ul {
-  padding: 0;
-  margin: 25px 0px 0px 0px;
+  padding-right: 30px;
 }
 nav li {
   display: inline;
@@ -191,9 +190,7 @@ footer .contact-box p {
   .text-muted {
     font-size: 12px;
   }
-  nav li {
-    margin-left: 15px;
-  }
+
   footer .contact-box {
     padding: 30px;
   }
